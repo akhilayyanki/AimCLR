@@ -14,8 +14,8 @@ train_feeder_args:
   mmap: True
 test_feeder: feeder.ntu_feeder.Feeder_single
 test_feeder_args:
-  data_path: ./data/gty/action_dataset/ntu60_frame50/xview/val_position.npy
-  label_path: ./data/gty/action_dataset/ntu60_frame50/xview/val_label.pkl
+  data_path: ./data/gty/action_dataset/ntu60_frame50/xview/stacked.npy
+  label_path: ./data/gty/action_dataset/ntu60_frame50/xview/pkl_data.pkl
   shear_amplitude: -1
   temperal_padding_ratio: -1
   mmap: True
