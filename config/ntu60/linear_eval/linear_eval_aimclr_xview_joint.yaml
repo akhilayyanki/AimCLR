@@ -1,7 +1,7 @@
 work_dir: ./data/gty/AAAI_github/ntu60_cv/aimclr_joint/linear_eval
 
-# weights: /data/gty/released_model/ntu60_xview_joint.pt
-weights: ./data/gty/AAAI_github/ntu60_cv/aimclr_joint/pretext/epoch300_model.pt
+weights: ./data/gty/released_model/ntu60_xview_joint.pt
+#weights: ./data/gty/AAAI_github/ntu60_cv/aimclr_joint/pretext/epoch300_model.pt
 ignore_weights: [encoder_q.fc, encoder_k, queue]
 
 # feeder
