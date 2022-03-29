@@ -192,6 +192,7 @@ class LE_Processor(Processor):
                 output = self.model(None, data)
             result_frag.append(output.data.cpu().numpy())
 
+            print(result_frag)
             # get loss
             loss = self.loss(output, label)
             loss_value.append(loss.item())
