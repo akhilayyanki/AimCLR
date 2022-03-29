@@ -134,6 +134,7 @@ class LE_Processor(Processor):
 
             # forward
             output = self.model(None, data)
+            print(output)
             loss = self.loss(output, label)
 
             # backward
